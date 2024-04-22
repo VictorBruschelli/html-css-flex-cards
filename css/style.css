@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+body{
+    font-family: "Fredoka", sans-serif;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+.title{
+    color: #e53170;
+}
+.text{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 265px;
+    padding-right: 265px;
+    text-align: center;
+
+}
