@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    background-color: black;
-}
 .header{
     display: flex;
     justify-content: center;
@@ -22,12 +19,30 @@ body{
     color: #e53170;
 }
 .text{
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 265px;
     padding-right: 265px;
     text-align: center;
-
+}
+.contact{
+    color: #0093e7;
+}
+.designer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: black;
+    width: 358px;
+    height: 100px;
+}
+.list{
+    list-style-type: none;
+}
+.img{
+    display: flex;
+    width: 100px;
+    height: 100px;
 }
