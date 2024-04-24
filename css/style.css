@@ -19,11 +19,8 @@ body{
     color: #e53170;
 }
 .text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 265px;
-    padding-right: 265px;
+    padding-left: 165px;
+    padding-right: 165px;
     text-align: center;
 }
 .contact{
@@ -31,18 +28,35 @@ body{
 }
 .designer{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     color: white;
     background-color: black;
     width: 358px;
     height: 100px;
+
 }
 .list{
+    padding-left: 15px;
     list-style-type: none;
 }
 .img{
     display: flex;
     width: 100px;
     height: 100px;
+}
+.team-primary{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 208px;
+    padding-right: 208px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.team-secundary{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 208px;
+    padding-right: 208px;
+
 }
